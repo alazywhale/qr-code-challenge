@@ -9,6 +9,7 @@
 html {
     background-color: hsl(212, 45%, 89%);
     text-align: center;
+    overflow: hidden;
 }
 
 .white-background {
@@ -52,7 +53,12 @@ img {
 }
 
 footer {
-    margin-top: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 footer p {
