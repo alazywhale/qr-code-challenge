@@ -1,0 +1,60 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@font-face {
+    font-family: Outfit;
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
+
+html {
+    background-color: hsl(212, 45%, 89%);
+    text-align: center;
+}
+
+.white-background {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 650px;
+    margin-top: -325px;
+    width: 400px;
+    margin-left: -200px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    overflow: hidden;
+    text-align: center;
+}
+
+img {
+    margin-top: 20px;  
+    width: 90%;
+    border-radius: 25px;
+}
+
+.bold {
+    text-align: center;
+    margin: 0 40px 0;
+}
+
+.bold p {
+    font-family: Outfit;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.pitch {
+    text-align: center;
+    margin: 0 40px 0;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
+footer {
+    margin-top: 100%;
+}
+
+footer p {
+    display: inline;
+}
